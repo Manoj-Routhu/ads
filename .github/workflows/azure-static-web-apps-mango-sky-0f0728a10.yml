@@ -26,7 +26,7 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_MANGO_SKY_0F0728A10 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
-          app_location: "/ads.html" # Corrected path
+          app_location: "/index.html" # Corrected path
           api_location: "" # Api source code path - optional
           output_location: "/" # Built app content directory - optional
 
